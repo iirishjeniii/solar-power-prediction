@@ -7,14 +7,13 @@ Original file is located at
     https://colab.research.google.com/drive/1VJVZ-fBmAlyiqr7un_XfcKj5zMVo9ICB
 """
 
-!pip install streamlit
 import streamlit as st
 import numpy as np
 import joblib
 
 st.set_page_config(page_title="Solar Power Output Predictor", layout="centered")
 
-MODEL_PATH = "solar_power_prediction_model.pkl"
+MODEL_PATH = "_Solar_Power_Prediction_Model.pkl"
 
 st.title("☀️ Solar Power Output Predictor")
 st.write(
